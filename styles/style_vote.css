@@ -143,6 +143,39 @@ article {
     background: url("images/star.jpg") no-repeat 50% 50% / cover;
 }
 
+main p {
+    color: white;
+}
+
+.thanks {
+    background: url(images/icons.png) no-repeat 50% 50% / cover;
+    height: 40em;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.thanks section {
+    background: rgb(255, 165, 0, 0.8);
+    border-radius: 50em;
+}
+
+.thanks p,
+.thanks h1 {
+    margin: 0.3em;
+}
+
+.thanks a {
+    font-size: 0.8em;
+    text-decoration: underline;
+    color: black;
+}
+
+.thanks a:hover {
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+}
+
 footer {
     display: flex;
     box-shadow: 0 -5px -5px rgba(0, 0, 0, 0.5);
@@ -154,6 +187,7 @@ footer {
     margin-top: 1em;
     padding: 1em;
     color: orange;
+    padding-top: 5em;
 }
 
 @media (max-width: 50em) {
